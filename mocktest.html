@@ -1,0 +1,195 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <!-- css styling -->
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        }
+
+        /* header style */
+        header {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: space-between;
+            background-color: grey;
+        }
+
+        /* header nav */
+        header nav {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            padding: 0.4em 0.8em;
+            gap: 2em;
+        }
+
+        /* navigation links */
+        nav a {
+            text-decoration: none;
+            color: white;
+        }
+
+        /* searchbar */
+        header input {
+            padding: 1em;
+            width: 15em;
+            border-radius: 0.5em;
+            border-style: none;
+        }
+
+        /* container style */
+        .container {
+            display: flex;
+            justify-content: space-around;
+            align-items: flex-start;
+            gap: 0.5em;
+        }
+
+        /* sidebar styling */
+        .sidebar {
+            display: flex;
+            flex-direction: column;
+            justify-content: flex-start;
+            align-items: center;
+            gap: 1em;
+            /* sidebar taking 30 percent space */
+            width: 30%;
+            text-align: center;
+            padding: 0.2em;
+            background-color: rgb(104, 234, 241);
+        }
+
+        .sidebar ul {
+            list-style-type: none;
+        }
+
+        /* main content page */
+        .maincontent {
+            display: flex;
+            flex-direction: column;
+            gap: 1em;
+            text-align: justify;
+            padding: 0.5em;
+            background-color: rgb(104, 234, 241);
+        }
+
+        /* footer style */
+        footer {
+            display: flex;
+            flex-direction: column;
+            gap: 0.5em;
+            margin-top: auto;
+            position: relative;
+            bottom: 0;
+            background-color: grey;
+            padding: 0.5em;
+            justify-content: center;
+            align-items: center;
+            width: 100%;
+            color: white;
+        }
+
+        footer nav {
+            display: flex;
+            justify-content: space-around;
+            align-items: center;
+            width: 80%;
+        }
+    </style>
+</head>
+
+<body>
+    <!-- header -->
+    <header>
+        <!-- navigation -->
+        <nav class="navigation">
+            <a href="#" class="home">Home</a>
+            <a href="#" class="home">News</a>
+            <a href="#" class="home">Encyclopedia</a>
+            <a href="#" class="home">Contact</a>
+            <a href="#" class="home">About us</a>
+        </nav>
+        <!-- searchbar in header -->
+        <nav class="searchbar">
+            <input type="text" class="search" placeholder="Search and Enter">
+        </nav>
+    </header>
+    <!-- body -->
+    <div class="container">
+        <div class="sidebar">
+            <h3>Headlines</h3>
+            <ul>
+                <li>News 1</li>
+                <li>News 2</li>
+                <li>News 3</li>
+                <li>News 4</li>
+                <li>News 5</li>
+                <li>News 6</li>
+                <li>News 7</li>
+                <li>News 8</li>
+                <li>News 9</li>
+                <li>News 10</li>
+            </ul>
+        </div>
+        <div class="maincontent">
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Maxime at esse hic iste ex voluptatum beatae. Id
+                odio blanditiis dolorem, quis aliquam quia, repellendus illo cum rerum explicabo omnis consequuntur
+                molestias. Eveniet, rerum porro. Earum delectus laudantium ipsa ipsam minus.</p>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Maxime at esse hic iste ex voluptatum beatae. Id
+                odio blanditiis dolorem, quis aliquam quia, repellendus illo cum rerum explicabo omnis consequuntur
+                molestias. Eveniet, rerum porro. Earum delectus laudantium ipsa ipsam minus.</p>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Maxime at esse hic iste ex voluptatum beatae. Id
+                odio blanditiis dolorem, quis aliquam quia, repellendus illo cum rerum explicabo omnis consequuntur
+                molestias. Eveniet, rerum porro. Earum delectus laudantium ipsa ipsam minus.</p>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Maxime at esse hic iste ex voluptatum beatae. Id
+                odio blanditiis dolorem, quis aliquam quia, repellendus illo cum rerum explicabo omnis consequuntur
+                molestias. Eveniet, rerum porro. Earum delectus laudantium ipsa ipsam minus.</p>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Maxime at esse hic iste ex voluptatum beatae. Id
+                odio blanditiis dolorem, quis aliquam quia, repellendus illo cum rerum explicabo omnis consequuntur
+                molestias. Eveniet, rerum porro. Earum delectus laudantium ipsa ipsam minus.</p>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Maxime at esse hic iste ex voluptatum beatae. Id
+                odio blanditiis dolorem, quis aliquam quia, repellendus illo cum rerum explicabo omnis consequuntur
+                molestias. Eveniet, rerum porro. Earum delectus laudantium ipsa ipsam minus.</p>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Maxime at esse hic iste ex voluptatum beatae. Id
+                odio blanditiis dolorem, quis aliquam quia, repellendus illo cum rerum explicabo omnis consequuntur
+                molestias. Eveniet, rerum porro. Earum delectus laudantium ipsa ipsam minus.</p>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Maxime at esse hic iste ex voluptatum beatae. Id
+                odio blanditiis dolorem, quis aliquam quia, repellendus illo cum rerum explicabo omnis consequuntur
+                molestias. Eveniet, rerum porro. Earum delectus laudantium ipsa ipsam minus.</p>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Maxime at esse hic iste ex voluptatum beatae. Id
+                odio blanditiis dolorem, quis aliquam quia, repellendus illo cum rerum explicabo omnis consequuntur
+                molestias. Eveniet, rerum porro. Earum delectus laudantium ipsa ipsam minus.</p>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Maxime at esse hic iste ex voluptatum beatae. Id
+                odio blanditiis dolorem, quis aliquam quia, repellendus illo cum rerum explicabo omnis consequuntur
+                molestias. Eveniet, rerum porro. Earum delectus laudantium ipsa ipsam minus.</p>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Maxime at esse hic iste ex voluptatum beatae. Id
+                odio blanditiis dolorem, quis aliquam quia, repellendus illo cum rerum explicabo omnis consequuntur
+                molestias. Eveniet, rerum porro. Earum delectus laudantium ipsa ipsam minus.</p>
+        </div>
+    </div>
+    <!-- footer -->
+    <footer>
+        <!-- footer navigation -->
+        <nav class="navfoot">
+            <a href="#" class="home">Home</a>
+            <a href="#" class="home">News</a>
+            <a href="#" class="home">Encyclopedia</a>
+            <a href="#" class="home">Contact</a>
+            <a href="#" class="home">About us</a>
+        </nav>
+        <p class="declaration">
+            &copy; SkillAcademy Mock Interview
+        </p>
+    </footer>
+</body>
+
+</html>
